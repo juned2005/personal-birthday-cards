@@ -28,7 +28,7 @@ export interface WishCard {
 
 export const birthdayConfig = {
   // ── The birthday person ──────────────────────────────────────────────────
-  recipientName: "Aisha",
+  recipientName: "person name",
   eyebrow: "A celebration of",
   tagline: "Thirty-two summers, and still the warmest room to walk into.",
 
