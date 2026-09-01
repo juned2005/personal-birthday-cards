@@ -63,5 +63,20 @@ export const birthdayConfig = {
       title: "The bright years",
       caption: "Here's to every spark still to come.",
     },
+    {
+      photo: photoBalloons,
+      title: "The quiet moment",
+      caption: "Balloons in the corner, happiness in the air.",
+    },
+    {
+      photo: photoMusic,
+      title: "The favorite song",
+      caption: "Play it loud. Dance anyway. Feel every note.",
+    },
+    {
+      photo: photoChampagne,
+      title: "The next chapter",
+      caption: "To everything ahead — clink, smile, repeat.",
+    },
   ] satisfies WishCard[],
 };
