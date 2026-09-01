@@ -15,6 +15,9 @@ import photoCake from "@/assets/card-cake.jpg";
 import photoToast from "@/assets/card-toast.jpg";
 import photoGift from "@/assets/card-gift.jpg";
 import photoSparkler from "@/assets/card-sparkler.jpg";
+import photoBalloons from "@/assets/card-balloons.jpg";
+import photoMusic from "@/assets/card-music.jpg";
+import photoChampagne from "@/assets/card-champagne.jpg";
 
 export interface WishCard {
   /** Photo shown on the card — an imported image or any https URL. */
