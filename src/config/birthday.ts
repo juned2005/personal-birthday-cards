@@ -6,15 +6,16 @@
 //   • message ……… the heartfelt birthday wish (each string = one line break)
 //   • signature ……… who the wish is from
 //   • cards …………… the photo cards in the swipe deck. Swap the photo import,
-//                     or replace `photo` with any image URL. You can also add a
-//                     photo on the live page with the "Add photo" button on
-//                     each card (uses a photo from your device).
+//                     or replace `photo` with any image URL.
 // ─────────────────────────────────────────────────────────────────────────────
 
 import photoCake from "@/assets/card-cake.jpg";
 import photoToast from "@/assets/card-toast.jpg";
 import photoGift from "@/assets/card-gift.jpg";
 import photoSparkler from "@/assets/card-sparkler.jpg";
+import photoBalloons from "@/assets/card-balloons.jpg";
+import photoMusic from "@/assets/card-music.jpg";
+import photoChampagne from "@/assets/card-champagne.jpg";
 
 export interface WishCard {
   /** Photo shown on the card — an imported image or any https URL. */
@@ -61,6 +62,21 @@ export const birthdayConfig = {
       photo: photoSparkler,
       title: "The bright years",
       caption: "Here's to every spark still to come.",
+    },
+    {
+      photo: photoBalloons,
+      title: "The quiet moment",
+      caption: "Balloons in the corner, happiness in the air.",
+    },
+    {
+      photo: photoMusic,
+      title: "The favorite song",
+      caption: "Play it loud. Dance anyway. Feel every note.",
+    },
+    {
+      photo: photoChampagne,
+      title: "The next chapter",
+      caption: "To everything ahead — clink, smile, repeat.",
     },
   ] satisfies WishCard[],
 };
