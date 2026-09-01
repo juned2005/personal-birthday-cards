@@ -22,3 +22,49 @@ cd <repository-name>
 npm i
 npm run dev
 ```
+
+<br>
+<br>
+<hr>
+
+## Where the images are
+
+**Image files:** `src/assets/`
+- `card-cake.jpg`
+- `card-toast.jpg`
+- `card-gift.jpg`
+- `card-sparkler.jpg`
+- `card-balloons.jpg`
+- `card-music.jpg`
+- `card-champagne.jpg`
+
+**Wired into code in:** `src/config/birthday.ts`
+
+At the top, each image is imported:
+
+```ts
+import photoCake from "@/assets/card-cake.jpg";
+```
+
+Then used in the `cards` array, one card per photo:
+
+```ts
+{
+  photo: photoCake,
+  title: "The big morning",
+  caption: "Coffee gone cold, candles lit, you grinning anyway.",
+},
+```
+
+## To swap an image for your own
+1. Drop your new image file into `src/assets/` (any name, e.g. `card-cake-new.jpg`).
+2. Update the import line to point at it:
+```ts
+   import photoCake from "@/assets/card-cake-new.jpg";
+```
+3. Done — the `photo: photoCake` reference in the `cards` array doesn't need to change.
+
+## To rename an existing image
+1. Rename the file in `src/assets/`.
+2. Update the matching import line to the new filename.
+3. Nothing else needs to change, since the rest of the code only references the variable name (`photoCake`, `photoToast`, etc.), not the file path.
