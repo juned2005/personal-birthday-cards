@@ -6,9 +6,7 @@
 //   • message ……… the heartfelt birthday wish (each string = one line break)
 //   • signature ……… who the wish is from
 //   • cards …………… the photo cards in the swipe deck. Swap the photo import,
-//                     or replace `photo` with any image URL. You can also add a
-//                     photo on the live page with the "Add photo" button on
-//                     each card (uses a photo from your device).
+//                     or replace `photo` with any image URL.
 // ─────────────────────────────────────────────────────────────────────────────
 
 import photoCake from "@/assets/card-cake.jpg";
