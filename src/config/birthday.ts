@@ -9,13 +9,13 @@
 //                     or replace `photo` with any image URL.
 // ─────────────────────────────────────────────────────────────────────────────
 
-import photoCake from "@/assets/card-cake.jpg";
-import photoToast from "@/assets/card-toast.jpg";
-import photoGift from "@/assets/card-gift.jpg";
-import photoSparkler from "@/assets/card-sparkler.jpg";
-import photoBalloons from "@/assets/card-balloons.jpg";
-import photoMusic from "@/assets/card-music.jpg";
-import photoChampagne from "@/assets/card-champagne.jpg";
+import photoCake from "@/assets/photo 1.jpg";
+import photoToast from "@/assets/photo 2.jpg";
+import photoGift from "@/assets/photo 3.jpg";
+import photoSparkler from "@/assets/photo 4.jpg";
+import photoBalloons from "@/assets/photo 5.jpg";
+import photoMusic from "@/assets/photo 6.jpg";
+import photoChampagne from "@/assets/photo 7.jpg";
 
 export interface WishCard {
   /** Photo shown on the card — an imported image or any https URL. */
