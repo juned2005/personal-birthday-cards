@@ -28,9 +28,9 @@ export interface WishCard {
 
 export const birthdayConfig = {
   // ── The birthday person ──────────────────────────────────────────────────
-  recipientName: "person name",
+  recipientName: "Saiyed Faiz",
   eyebrow: "A celebration of",
-  tagline: "Thirty-two summers, and still the warmest room to walk into.",
+  tagline: "faiz's Birthday ",
 
   // ── The heartfelt wish (3–4 lines; each entry renders as its own line) ───
   message: [
@@ -39,43 +39,43 @@ export const birthdayConfig = {
     "know when to stay quiet — and when to fill the whole room with light.",
     "May this year be gentle, golden, and entirely yours.",
   ],
-  signature: "— always, with love",
+  signature: "— always, be happy ",
 
   // ── The photo deck (top card first) ──────────────────────────────────────
   cards: [
     {
       photo: photoCake,
-      title: "The big morning",
+      title: "Happy Birthday to Our Favorite Little Rockstar!",
       caption: "Coffee gone cold, candles lit, you grinning anyway.",
     },
     {
       photo: photoToast,
-      title: "The long table",
+      title: "Big Smiles for the Birthday Boy",
       caption: "Loud, warm, and entirely yours.",
     },
     {
       photo: photoGift,
-      title: "The little things",
+      title: "Little Guy, Big Personality!",
       caption: "The way you make everything feel like a gift.",
     },
     {
       photo: photoSparkler,
-      title: "The bright years",
+      title: "Cutest Boy in the Room",
       caption: "Here's to every spark still to come.",
     },
     {
       photo: photoBalloons,
-      title: "The quiet moment",
+      title: "Keep Shining, Little Champion!",
       caption: "Balloons in the corner, happiness in the air.",
     },
     {
       photo: photoMusic,
-      title: "The favorite song",
+      title: "May Your Year Be as Bright as Your Smile",
       caption: "Play it loud. Dance anyway. Feel every note.",
     },
     {
       photo: photoChampagne,
-      title: "The next chapter",
+      title: "100% Mischief, 100% Adorable",
       caption: "To everything ahead — clink, smile, repeat.",
     },
   ] satisfies WishCard[],
